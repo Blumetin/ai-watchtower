@@ -1,0 +1,21 @@
+{
+  "source_file": "COUNTY_MOI_1140318.shp",
+  "source_sha256": "ee8290e26e38dbf34e00dcf33a4a0c4beabcec9d684780e2b4bf0ebb9a023c14",
+  "tolerance_deg": 0.004,
+  "dataset": "內政部國土測繪中心「直轄市、縣市界線(TWD97經緯度)」",
+  "dataset_url": "https://data.gov.tw/dataset/7442",
+  "download_url": "https://www.tgos.tw/tgos/VirtualDir/Product/1cd4f4c9-6b01-4cf9-bf6c-23a73aa17d24/直轄市、縣(市)界線1140318.zip",
+  "download_zip_sha256": "9ff4d337e03a711d7e17caaf4d0c46a0fe2c6bd3660b321a2e35123030d8491c",
+  "version": "1140318",
+  "license": "政府資料開放授權條款－第 1 版（https://data.gov.tw/license）",
+  "shared_holes": 2,
+  "dropped_islets": 585,
+  "reduced_tolerance_rings": [
+    "cha:0.001",
+    "nan:0.001",
+    "khh:0.001"
+  ],
+  "polygons": 62,
+  "holes": 2,
+  "points": 3080
+}

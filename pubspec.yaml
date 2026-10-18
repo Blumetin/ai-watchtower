@@ -1,0 +1,71 @@
+name: watchtower_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.6.0
+  intl: ^0.20.3
+  url_launcher: ^6.3.2
+  flutter_localizations:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  firebase_core: ^4.15.0
+  cloud_firestore: ^6.10.0
+  cloud_functions: ^6.5.0
+  shared_preferences: ^2.5.5
+  material_symbols_icons: 4.2960.0
+  go_router: 18.0.1
+  firebase_app_check: ^0.4.8
+  firebase_messaging: ^16.7.0
+  google_maps_flutter: 2.18.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+
+flutter:
+  generate: true
+
+  uses-material-design: true
+
+  assets:
+    - assets/data/usgs_tw_1996-2026_M4.5.json
+    - assets/data/tw_counties.json
+    - assets/content/
+    - assets/fonts/OFL-PlusJakartaSans.txt
+    - assets/fonts/OFL-AtkinsonHyperlegibleNext.txt
+    - assets/fonts/OFL-NotoSansTC.txt
+    - assets/fonts/OFL-NotoSansJP.txt
+
+  fonts:
+    - family: PlusJakartaSans
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-Variable.ttf
+    - family: AtkinsonHyperlegibleNext
+      fonts:
+        - asset: assets/fonts/AtkinsonHyperlegibleNext-Variable.ttf
+    - family: NotoSansTCUI
+      fonts:
+        - asset: assets/fonts/NotoSansTC-UI.ttf
+    - family: NotoSansJPUI
+      fonts:
+        - asset: assets/fonts/NotoSansJP-UI.ttf
+
+
+
+

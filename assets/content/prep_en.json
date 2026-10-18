@@ -1,0 +1,176 @@
+{
+ "sections": [
+  {
+   "id": "bag",
+   "title": "Go-bag checklist",
+   "blocks": [
+    {
+     "groups": [
+      {
+       "title": "Basics",
+       "note": "",
+       "items": [
+        "One bag per person, with supplies for at least 1 to 3 days.",
+        "Use a backpack you can carry. Keep the weight to about 15 kg for men and 10 kg for women at most.",
+        "Keep it near the front door. You can keep a lighter bag by the bed, in the car, or at work.",
+        "Check it every six months. Eat food that is about to expire and replace it."
+       ],
+       "numbered": false,
+       "pending": []
+      },
+      {
+       "title": "Checklist",
+       "note": "tick items off; your ticks stay on this phone only",
+       "items": [
+        "Drinking water: the Ministry of National Defense suggests two 600 ml bottles; the National Fire Agency suggests 15 ml per kg of body weight per day.",
+        "Food that needs no cooking: canned food, instant rice, ration biscuits, energy bars, nuts, chocolate. Choose items that keep at room temperature and don't make you thirsty.",
+        "Hygiene: masks, tissues, wet wipes, rubbing alcohol, sanitary products, a small towel, a portable water filter.",
+        "Medical: regular and prescription medicine, wound ointment, bandages, a thermometer, spare glasses.",
+        "Light: a flashlight or headlamp with spare batteries.",
+        "Communication: a whistle, a portable radio, and a paper list of contacts (family meeting point, phone numbers, government hotlines).",
+        "Warmth and sun: a raincoat, a jacket, a blanket or emergency foil blanket, a hat, sunscreen.",
+        "Documents: copies of your ID, health insurance card, and bankbook in a waterproof bag; if you are a foreign resident, also copies of your passport and ARC (added by this app); some cash, including coins.",
+        "Power: a charged power bank, charging cables, batteries.",
+        "Tools: cut-resistant gloves, plastic bags, a helmet, paper and pen, a lighter, a multi-tool, a can opener, comfortable walking shoes."
+       ],
+       "numbered": false,
+       "pending": []
+      },
+      {
+       "title": "If your household includes",
+       "note": "",
+       "items": [
+        "Babies: formula, bottles, baby food, diapers, a baby carrier, a pacifier or small toy.",
+        "Older adults: easy-to-eat food such as nutrition jelly, adult diapers, a spare cane, denture care items, hearing aids and batteries, reading glasses.",
+        "Pets: pet food, regular medicine, a carrier, a leash, a blanket, owner contact details."
+       ],
+       "numbered": false,
+       "pending": []
+      }
+     ],
+     "source": "Sources: All-out Defense Mobilization Agency, Ministry of National Defense; National Fire Agency, Ministry of the Interior",
+     "links": [
+      "https://prepare.mnd.gov.tw/emergency-supplies/go-bag",
+      "https://www.nfa.gov.tw/cht/index.php?code=list&flag=detail&ids=1468&article_id=18936"
+     ],
+     "id": "bag"
+    }
+   ]
+  },
+  {
+   "id": "response",
+   "title": "What to do in a disaster",
+   "blocks": [
+    {
+     "groups": [
+      {
+       "title": "Earthquake",
+       "note": "",
+       "items": [
+        "Protect your head and neck: Drop, Cover, and Hold On until the shaking stops.",
+        "Indoors: take cover under a sturdy table or in a corner. Don't run outside. Hold on to the table legs. Watch out for cabinets, lights, and appliances.",
+        "Outdoors: stop walking, stay away from things that could fall, and crouch in an open area. Don't run into buildings.",
+        "Driving: slow down, turn on your hazard lights, stop in an open area, and stay in the car until the shaking stops.",
+        "If damage is severe: take your go-bag and follow rescue workers to an evacuation shelter."
+       ],
+       "numbered": false,
+       "pending": []
+      }
+     ],
+     "source": "Sources: National Fire Agency, Ministry of the Interior; All-out Defense Mobilization Agency",
+     "links": [
+      "https://www.tfdp.com.tw/cht/index.php?code=list&flag=detail&ids=52&article_id=123",
+      "https://prepare.mnd.gov.tw/emergency-responses"
+     ],
+     "id": "earthquake"
+    },
+    {
+     "groups": [
+      {
+       "title": "Typhoon",
+       "note": "",
+       "items": [
+        "When a typhoon warning is issued, check your home supplies and go-bag, get home early, and stay indoors.",
+        "If damage is severe, take your go-bag and evacuate as instructed."
+       ],
+       "numbered": false,
+       "pending": []
+      }
+     ],
+     "source": "Source: All-out Defense Mobilization Agency",
+     "links": [
+      "https://prepare.mnd.gov.tw/emergency-responses"
+     ],
+     "id": "typhoon"
+    },
+    {
+     "groups": [
+      {
+       "title": "Tsunami",
+       "note": "",
+       "items": [
+        "Be alert after a strong earthquake near the coast, when you receive a tsunami warning message, when you hear the tsunami siren, or when the sea pulls back quickly or white waves approach from far away.",
+        "Tsunami siren: 5 seconds on, 5 seconds off, 5 seconds on, followed by a \"tsunami warning\" announcement. A continuous 90-second tone means the warning is lifted.",
+        "Move to high ground away from the coast right away, for example the 3rd floor or higher of a sturdy building. Don't wait for a warning, and don't go to the shore to look.",
+        "Don't drive for short-distance evacuation. You could get stuck in traffic or trapped in the car.",
+        "If you can't reach high ground in time, hold on to something solid, such as a large tree or steel bars.",
+        "More waves may follow the first. Don't go home or near a fishing port or the beach until the warning is lifted."
+       ],
+       "numbered": false,
+       "pending": []
+      }
+     ],
+     "source": "Sources: Central Weather Administration; All-out Defense Mobilization Agency",
+     "links": [
+      "https://scweb.cwa.gov.tw/zh-tw/guidance/protection/226",
+      "https://prepare.mnd.gov.tw/emergency-responses"
+     ],
+     "id": "tsunami"
+    },
+    {
+     "groups": [
+      {
+       "title": "Debris flow",
+       "note": "",
+       "items": [
+        "Warning signs: tilting trees or poles, water seeping from slopes, sudden cracks in the ground, loud rumbling from the mountains, or river water suddenly turning muddy with mud and driftwood.",
+        "If you see signs or receive a warning, take your go-bag and move to higher ground right away.",
+        "Don't run along the path of a stream or debris flow. Stay away from streams, slopes, drains, and bridges."
+       ],
+       "numbered": false,
+       "pending": []
+      }
+     ],
+     "source": "Source: All-out Defense Mobilization Agency",
+     "links": [
+      "https://prepare.mnd.gov.tw/emergency-responses"
+     ],
+     "id": "debris_flow"
+    },
+    {
+     "groups": [
+      {
+       "title": "Fire",
+       "note": "",
+       "items": [
+        "Your life comes first. Don't go back for belongings. Don't use the elevator, and don't hide in the bathroom.",
+        "Go down and out. Smoke rises much faster than people can climb, so don't go upstairs.",
+        "Before opening a door, touch the top of it. If it's hot, don't open it; use another way out. If it's not hot, open it a little and check for smoke before going out.",
+        "Close doors behind you to keep fire and smoke in.",
+        "If the stairway is full of smoke, don't go up or through the smoke. Look for another exit.",
+        "If both exits are blocked, go to the room or balcony farthest from the fire that has a window to the outside. Close the door, block the gap with clothes, call 119, give your exact location, and wait for rescue."
+       ],
+       "numbered": false,
+       "pending": []
+      }
+     ],
+     "source": "Source: National Fire Agency, Ministry of the Interior",
+     "links": [
+      "https://www.tfdp.com.tw/cht/index.php?code=list&flag=detail&ids=55&article_id=152"
+     ],
+     "id": "fire"
+    }
+   ]
+  }
+ ]
+}

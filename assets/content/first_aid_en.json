@@ -1,0 +1,75 @@
+{
+ "section": {
+  "id": "first_aid",
+  "title": "First aid",
+  "blocks": [
+   {
+    "groups": [
+     {
+      "title": "Burns: Rinse, Remove, Soak, Cover, Transport",
+      "note": "",
+      "items": [
+       "Rinse: run cool water over the burn for 15 to 30 minutes.",
+       "Remove: carefully take off or cut away clothing around the burn while it's in the water. Leave any part stuck to the wound, and don't break blisters.",
+       "Soak: keep it in cool water for about 30 more minutes. For large burns, children, or older adults, don't soak too long, to avoid getting too cold.",
+       "Cover: cover it with clean gauze. Don't put ointment or home remedies on it.",
+       "Transport: get to a hospital as soon as possible."
+      ],
+      "numbered": true,
+      "pending": []
+     }
+    ],
+    "source": "Sources: Health Promotion Administration, Ministry of Health and Welfare; Taipei City Fire Department; All-out Defense Mobilization Agency",
+    "links": [
+     "https://www.mohw.gov.tw/cp-16-80496-1.html",
+     "https://www.disasterlearning.gov.taipei/tw/Knowledge/ugC_Knowledge_Detail.aspx?ID=120&TID=6",
+     "https://prepare.mnd.gov.tw/casualty-care-procedures"
+    ],
+    "id": "burns"
+   },
+   {
+    "groups": [
+     {
+      "title": "Heavy bleeding",
+      "note": "",
+      "items": [
+       "Call 119 first, then control the bleeding while you wait.",
+       "Arms and legs: press on the wound with clean cloth and keep the pressure on. If it doesn't stop, tie a tourniquet 5 to 8 cm above the wound and note the time.",
+       "Head, neck, chest, abdomen: don't use a tourniquet. Press gently around the wound with clean cloth. Don't pull out anything stuck in the body."
+      ],
+      "numbered": false,
+      "pending": []
+     }
+    ],
+    "source": "Source: All-out Defense Mobilization Agency",
+    "links": [
+     "https://prepare.mnd.gov.tw/casualty-care-procedures"
+    ],
+    "id": "bleeding"
+   },
+   {
+    "groups": [
+     {
+      "title": "Someone collapses and doesn't respond",
+      "note": "",
+      "items": [
+       "Tap their shoulders and shout.",
+       "No response: ask someone to call 119, and check for normal breathing.",
+       "Not breathing normally: ask someone to bring an AED and start CPR. When the AED arrives, turn it on and follow the voice prompts.",
+       "Still breathing: turn them on their side to keep the airway open."
+      ],
+      "numbered": true,
+      "pending": [
+       "(To be added: CPR hand position, depth, and rate, based on the Ministry of Health and Welfare CPR guideline.)"
+      ]
+     }
+    ],
+    "source": "Source: All-out Defense Mobilization Agency",
+    "links": [
+     "https://prepare.mnd.gov.tw/casualty-care-procedures"
+    ],
+    "id": "collapse"
+   }
+  ]
+ }
+}

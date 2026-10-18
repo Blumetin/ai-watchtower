@@ -1,0 +1,75 @@
+{
+ "section": {
+  "id": "first_aid",
+  "title": "応急手当",
+  "blocks": [
+   {
+    "groups": [
+     {
+      "title": "やけど：冷やす、脱がす、浸す、覆う、受診する",
+      "note": "台湾で広く使われている5つのステップ",
+      "items": [
+       "冷やす：流水で15～30分冷やします。",
+       "脱がす：水の中で、やけどの周りの衣服をそっと脱がすか切ります。くっついた部分は無理にはがさず、水ぶくれもつぶさないでください。",
+       "浸す：さらに約30分、冷水に浸します。やけどの範囲が広いときや、子ども・高齢者の場合は、体が冷えすぎないよう長く浸しすぎないでください。",
+       "覆う：清潔なガーゼで覆います。薬や民間療法を塗らないでください。",
+       "受診する：できるだけ早く病院へ。"
+      ],
+      "numbered": true,
+      "pending": []
+     }
+    ],
+    "source": "出典：衛生福利部国民健康署、台北市政府消防局、国防部全民防衛動員署",
+    "links": [
+     "https://www.mohw.gov.tw/cp-16-80496-1.html",
+     "https://www.disasterlearning.gov.taipei/tw/Knowledge/ugC_Knowledge_Detail.aspx?ID=120&TID=6",
+     "https://prepare.mnd.gov.tw/casualty-care-procedures"
+    ],
+    "id": "burns"
+   },
+   {
+    "groups": [
+     {
+      "title": "大量出血",
+      "note": "",
+      "items": [
+       "まず119に電話し、待つ間に止血します。",
+       "手足：清潔な布で傷口を押さえ、圧迫し続けます。止まらないときは傷口の5～8cm上に止血帯を巻き、巻いた時刻を記録します。",
+       "頭、首、胸、腹：止血帯は使いません。清潔な布で傷口の周りを軽く押さえます。体に刺さったものは抜かないでください。"
+      ],
+      "numbered": false,
+      "pending": []
+     }
+    ],
+    "source": "出典：国防部全民防衛動員署",
+    "links": [
+     "https://prepare.mnd.gov.tw/casualty-care-procedures"
+    ],
+    "id": "bleeding"
+   },
+   {
+    "groups": [
+     {
+      "title": "人が倒れて反応がないとき",
+      "note": "",
+      "items": [
+       "肩をたたき、大きな声で呼びかけます。",
+       "反応がない：周りの人に119番を頼み、普段どおりの呼吸があるか確認します。",
+       "普段どおりの呼吸がない：AEDを持ってきてもらい、心肺蘇生（CPR）を始めます。AEDが届いたら電源を入れ、音声の指示に従います。",
+       "呼吸がある：横向きに寝かせ、気道を確保します。"
+      ],
+      "numbered": true,
+      "pending": [
+       "（追加予定：衛生福利部のCPR指針に基づく圧迫の位置、深さ、速さ。）"
+      ]
+     }
+    ],
+    "source": "出典：国防部全民防衛動員署",
+    "links": [
+     "https://prepare.mnd.gov.tw/casualty-care-procedures"
+    ],
+    "id": "collapse"
+   }
+  ]
+ }
+}

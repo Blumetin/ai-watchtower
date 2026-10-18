@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">防災速報</string>
+    <string name="launcher_name">@string/app_name</string>
+    <string name="major_alerts_channel">重大示警</string>
+</resources>

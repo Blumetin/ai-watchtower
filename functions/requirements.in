@@ -1,0 +1,8 @@
+firebase-functions>=0.4
+firebase-admin>=6
+google-genai>=2.22
+pydantic>=2
+numpy>=2
+pypinyin>=0.55
+jieba==0.42.1
+opencc==1.4.2

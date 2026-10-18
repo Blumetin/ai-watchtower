@@ -1,0 +1,21 @@
+{
+  "fonttools": "4.63.0",
+  "source_repo": "https://github.com/google/fonts",
+  "total_chars": 746,
+  "tc": {
+    "file": "NotoSansTC-UI.ttf",
+    "source": "NotoSansTC.ttf",
+    "source_sha256": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+    "chars": 712,
+    "bytes": 376468,
+    "missing": "内区収図壊変対帯当従応戻択揺数断来査検楽様毎気湾満状称経絵続訳読録顕"
+  },
+  "jp": {
+    "file": "NotoSansJP-UI.ttf",
+    "source": "NotoSansJP.ttf",
+    "source_sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f",
+    "chars": 34,
+    "bytes": 19944,
+    "missing": ""
+  }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taiwan Disaster Alerts</string>
+    <string name="launcher_name">Disaster Alerts</string>
+    <string name="major_alerts_channel">Major alerts</string>
+</resources>

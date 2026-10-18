@@ -1,0 +1,40 @@
+# Firebase configuration (generate your own with `flutterfire configure`)
+lib/firebase_options.dart
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Keys and local settings
+.env
+!.env.example
+local.properties
+key.properties
+*.jks
+*.keystore
+ios/Flutter/MapsKeys.xcconfig
+*dart*define*.json
+*app*check*token*
+*app*check*debug*
+
+# Build output and local tooling
+build/
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+venv/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+.idea/
+*.iml
+firebase-debug.log
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+ios/Flutter/.last_build_id
+ios/Runner.xcodeproj/xcuserdata/
+android/.kotlin/
+android/app/debug
+android/app/profile
+android/app/release

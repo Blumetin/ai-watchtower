@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Taiwan's official disaster alerts and earthquake reports in plain words. Chinese, English and Japanese. No account, no location tracking.">
+  <meta property="og:site_name" content="Taiwan Disaster Alerts">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Taiwan Disaster Alerts – official alerts in plain words">
+  <meta property="og:description" content="Official warnings and earthquake reports for Taiwan, explained simply. Ask questions in everyday words and see the sources.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Taiwan Disaster Alerts – official alerts in plain words">
+  <meta name="twitter:description" content="Official warnings and earthquake reports for Taiwan, explained simply. Ask questions in everyday words and see the sources.">
+  <meta name="robots" content="noindex, nofollow">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Disaster Alerts">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.png"/>
+  <link rel="icon" type="image/png" sizes="48x48" href="icons/favicon-48.png"/>
+
+  <title>Taiwan Disaster Alerts – official alerts in plain words</title>
+  <script>
+    (function () {
+      function setInstallLang(lang) {
+        var pick = {
+          zh: ['manifest-zh.json', '防災速報'],
+          ja: ['manifest-ja.json', '防災速報']
+        }[lang] || ['manifest.json', 'Disaster Alerts'];
+        
+        var link = document.createElement('link');
+        link.setAttribute('rel', 'manifest');
+        link.setAttribute('href', pick[0]);
+        document.head.appendChild(link);
+        var meta = document.querySelector('meta[name="apple-mobile-web-app-title"]');
+        if (meta) meta.setAttribute('content', pick[1]);
+      }
+      var langs = navigator.languages && navigator.languages.length
+        ? navigator.languages : [navigator.language || 'en'];
+      var browserLang = 'en';
+      for (var i = 0; i < langs.length; i++) {
+        var code = String(langs[i]).toLowerCase().split(/[-_]/)[0];
+        if (code === 'zh' || code === 'ja' || code === 'en') {
+          browserLang = code;
+          break;
+        }
+      }
+      setInstallLang(browserLang);
+      
+      
+      var uiLang = browserLang;
+      try {
+        var saved = localStorage.getItem('watchtower.lang');
+        if (saved === 'zh' || saved === 'ja' || saved === 'en') uiLang = saved;
+      } catch (e) {}
+      
+      
+      
+      
+      try {
+        var url = new URL(location.href);
+        var asked = url.searchParams.get('lang');
+        if (asked === 'zh' || asked === 'ja' || asked === 'en') {
+          uiLang = asked;
+          try { localStorage.setItem('watchtower.lang', asked); } catch (e) {}
+        }
+        if (url.searchParams.has('lang')) {
+          url.searchParams.delete('lang');
+          history.replaceState(history.state, '', url.pathname + url.search + url.hash);
+        }
+      } catch (e) {}
+      window.watchtowerLang = uiLang;
+      
+      
+      try {
+        var raw = sessionStorage.getItem('watchtower.restore');
+        if (raw !== null) {
+          sessionStorage.removeItem('watchtower.restore');
+          var saved = JSON.parse(raw);
+          
+          var age = Date.now() - saved.ts;
+          if (saved.v === 1 && Number.isSafeInteger(saved.ts) && age >= 0 && age <= 60000) {
+            window.watchtowerRestore = raw;
+          }
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <style>
+    #wt-loading {
+      position: fixed; inset: 0; z-index: 9999;
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 28px;
+      background: #ECEFF1;
+    }
+    #wt-loading img { width: 96px; height: 96px; border-radius: 22px; }
+    #wt-loading .wt-ring {
+      width: 32px; height: 32px; box-sizing: border-box; border-radius: 50%;
+      border: 3px solid #CFD8DC; border-top-color: #37474F;
+      animation: wt-spin 0.9s linear infinite;
+    }
+    @keyframes wt-spin { to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { #wt-loading .wt-ring { animation: none; } }
+  </style>
+</head>
+<body>
+  <div id="wt-loading" aria-hidden="true">
+    <img src="icons/Icon-192.png" alt="">
+    <div class="wt-ring"></div>
+  </div>
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var el = document.getElementById('wt-loading');
+      if (el) el.remove();
+    }, { once: true });
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+{
+ "section": {
+  "id": "first_aid",
+  "title": "急救知識",
+  "blocks": [
+   {
+    "groups": [
+     {
+      "title": "燒燙傷：沖、脫、泡、蓋、送",
+      "note": "",
+      "items": [
+       "沖：用冷水持續沖 15 到 30 分鐘。",
+       "脫：在水中小心脫掉或剪開傷處的衣物；黏在傷口上的部分先留著，不要硬撕，也不要弄破水泡。",
+       "泡：繼續用冷水泡約 30 分鐘。燙傷面積大，或傷者是孩童、長者時，不要泡太久，以免體溫過低。",
+       "蓋：用乾淨的紗布蓋住傷口，不要自行塗藥膏或偏方。",
+       "送：儘快送醫。"
+      ],
+      "numbered": true,
+      "pending": []
+     }
+    ],
+    "source": "資料來源：衛生福利部國民健康署（113-11-13）；臺北市政府消防局防災教育雲；國防部全民防衛動員署〈傷患處理〉",
+    "links": [
+     "https://www.mohw.gov.tw/cp-16-80496-1.html",
+     "https://www.disasterlearning.gov.taipei/tw/Knowledge/ugC_Knowledge_Detail.aspx?ID=120&TID=6",
+     "https://prepare.mnd.gov.tw/casualty-care-procedures"
+    ],
+    "id": "burns"
+   },
+   {
+    "groups": [
+     {
+      "title": "大量出血",
+      "note": "",
+      "items": [
+       "先打 119，等待時依部位止血。",
+       "手腳：用乾淨布料壓住傷口持續加壓；止不住時，在傷口上方 5 到 8 公分處綁止血帶，記下綁上的時間。",
+       "頭、頸、胸、腹：不要用止血帶。用乾淨布料輕壓傷口周圍；有東西插在身上時不要拔出來。"
+      ],
+      "numbered": false,
+      "pending": []
+     }
+    ],
+    "source": "資料來源：國防部全民防衛動員署〈傷患處理〉",
+    "links": [
+     "https://prepare.mnd.gov.tw/casualty-care-procedures"
+    ],
+    "id": "bleeding"
+   },
+   {
+    "groups": [
+     {
+      "title": "有人倒下沒有反應",
+      "note": "",
+      "items": [
+       "拍對方的肩膀、大聲叫喚。",
+       "沒有反應：請旁人打 119，並看對方有沒有正常呼吸。",
+       "沒有正常呼吸：請人去拿 AED，先開始 CPR。AED 到了就打開電源，照語音指示操作。",
+       "還有呼吸：讓對方側躺，保持呼吸道暢通。"
+      ],
+      "numbered": true,
+      "pending": [
+       "（待補：CPR 按壓位置、深度、速率，依衛福部〈民眾版心肺復甦術參考指引摘要表〉。）"
+      ]
+     }
+    ],
+    "source": "資料來源：國防部全民防衛動員署〈傷患處理〉",
+    "links": [
+     "https://prepare.mnd.gov.tw/casualty-care-procedures"
+    ],
+    "id": "collapse"
+   }
+  ]
+ }
+}
